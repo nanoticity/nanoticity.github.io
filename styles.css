@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    font-family: Verdana;
+    }
+
+    p {
+        color: yellow;
+        font-family: Verdana;
+    }
+    strong {
+        color: yellow;
+        font-family: Verdana;
+    }
+
+    a {
+        color: yellow;
+        font-family: Verdana;
+    }
+
+    a:hover {
+        text-decoration-line: underline;
+    text-decoration-style: wavy;
+    }
+
+    ol {
+        color: yellow;
+        font-family: Verdana;
+    }
