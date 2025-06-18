@@ -1,27 +1,63 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-        <script src="index.js"></script>
-        <strong><center>Hi there &#128075;! I'm Nano!</center></strong>
-    </head>
-    <body>
-        <title>
-        Nano's Personal Website
-        </title>
-        <p>
-            My name on slack is @Nano. I'm the default image with the green background. Feel free to DM me! btw I check slack every day so i might reply quickly.
-        </p>
-        <p>
-            I play piano and participate in competitions too!
-        </p>
-        <p>
-            I also participate events at Hackclub. I particiapted in High Seas this year. This is a unbeateble Tic Tac Toe AI that I submitted for high seas this year. <br><br>
-            <button onclick="jumper()">Space: Jump</button> <br> <br>
-            <button onclick="bounce()">Bounce</button> <br> <br>
-            <button onclick="tic()">Tic Tac Toe AI</button> <br> <br>
-            <button onclick="snake()">Snake with AI</button> <br> <br>
-        </p>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Nano's Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><button class="theme-toggle" aria-label="Toggle dark mode">🌙</button></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main class="main">
+    <section class="intro">
+      <div class="intro-card">
+        <div class="intro-content">
+          <h1>Hello 👋, I'm @Nano</h1>
+          <p class="intro-text">I'm a Python developer exploring web development. I create clean, efficient solutions with modern technologies. I also create reinforcement learning algorithms for simple games that I coded. Be sure to check my Projects page for more info.</p>
+          <div class="skill-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Pygame</span>
+            <span class="tag">Web Design</span>
+          </div>
+          <div class="sub-islands-grid">
+            <div class="sub-island">
+              <h3>ML Development</h3>
+              <p>Building Reinforcement Learning solutions to my games.</p>
+            </div>
+            <div class="sub-island">
+              <h3>Frontend Design</h3>
+              <p>Creating responsive and intuitive user interfaces with modern CSS and JavaScript.</p>
+            </div>
+            <div class="sub-island">
+              <h3>Problem Solving</h3>
+              <p>Tackling complex challenges with efficient and elegant solutions.</p>
+            </div>
+          </div>
+          <div class="cta-buttons">
+            <a href="projects.html" class="primary-button">View My Work</a>
+            <a href="about.html" class="secondary-button">About Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      &copy; 2025 Nano
+    </div>
+  </footer>
+</body>
 </html>

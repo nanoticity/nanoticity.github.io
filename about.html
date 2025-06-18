@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Me</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <script src="carousel.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Nano's Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><button class="theme-toggle" aria-label="Toggle dark mode">🌙</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="about">
+      <div class="about-grid">
+        <div class="about-card main-info">
+          <h2>About Me</h2>
+          <p>I'm a programmer who loves Python. I love building large algorithms with it that teach the computer how to play various games.</p>
+          <div class="experience-tags">
+            <span class="tag">3+ Years Experience</span>
+            <span class="tag">Python</span>
+            <span class="tag">Problem Solver</span>
+          </div>
+        </div>
+        
+        <div class="about-card">
+          <h3>Technical Skills</h3>
+          <div class="carousel">
+            <div class="carousel-nav-zone left">
+              <button class="carousel-button prev" aria-label="Previous slide">←</button>
+            </div>
+            <div class="carousel-nav-zone right">
+              <button class="carousel-button next" aria-label="Next slide">→</button>
+            </div>
+            <div class="carousel-container">
+              <div class="carousel-slide active">
+                <div class="sub-island">
+                  <h4>Languages</h4>
+                  <div class="skills-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Swift</span>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-slide">
+                <div class="sub-island">
+                  <h4>Frameworks & Tools</h4>
+                  <div class="skills-tags">
+                    <span class="tag">Pygame</span>
+                    <span class="tag">Pyodide</span>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-slide">
+                <div class="sub-island">
+                  <h4>Development Tools</h4>
+                  <div class="skills-tags">
+                    <span class="tag">GitHub Copilot</span>
+                    <span class="tag">Git</span>
+                    <span class="tag">VS Code</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-nav-zone bottom">
+              <div class="carousel-dots">
+                <span class="carousel-dot active"></span>
+                <span class="carousel-dot"></span>
+                <span class="carousel-dot"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-card">
+          <h3>Education</h3>
+          <div class="sub-island">
+            <h4>Self-Taught Developer</h4>
+            <p>Continuous learning through online resources, documentation, and practical projects</p>
+          </div>
+        </div>
+
+        <div class="about-card">
+          <h3>Interests</h3>
+          <div class="sub-island">
+            <div class="interests-grid">
+              <span class="interest-tag">Open Source</span>
+              <span class="interest-tag">Computer Assisted Music</span>
+              <span class="interest-tag">Machine Learning</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      &copy; 2025 Nano
+    </div>
+  </footer>
+</body>
+</html>
