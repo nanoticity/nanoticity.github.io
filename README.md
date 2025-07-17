@@ -1,6 +1,6 @@
 # Personal Website
 
-Pretty self explanatory. All the information is on the website.
+Pretty self explanatory. All the information is on the website. This website was mostly vibe coded, especially because of the CSS.
 
 Best,
 -Nano <br><br>
